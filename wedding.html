@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- required meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- #favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- #title -->
+    <title>Glamoure | Wedding Html5 Template</title>
+    <!-- #keywords -->
+    <meta name="keywords" content="Glamoure, Wedding">
+    <!-- #description -->
+    <meta name="description" content="Wedding HTML5 Template">
+
+    <!-- ==== css dependencies start ==== -->
+
+    <!-- bootstrap five css -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- font awesome six css -->
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css">
+    <!-- nice select css -->
+    <link rel="stylesheet" href="assets/vendor/nice-select/css/nice-select.css">
+    <!-- magnific popup css -->
+    <link rel="stylesheet" href="assets/vendor/magnific-popup/css/magnific-popup.css">
+    <!-- slick css -->
+    <link rel="stylesheet" href="assets/vendor/slick/css/slick.css">
+    <!-- odometer css -->
+    <link rel="stylesheet" href="assets/vendor/odometer/css/odometer.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/vendor/animate/animate.css">
+
+    <!-- ==== / css dependencies end ==== -->
+
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <style>
+        @media (min-width: 768px) {
+            * {
+                display: none;
+            }
+        }
+
+        .static-hero-s2 .images {
+            left: 5%;
+            margin: 0 auto;
+            /* margin-top: 50px; */
+            top: 0;
+            width: 48%;
+            height: 880px;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-position: 90%;
+            /* background-position: 50%; */
+            background-size: cover;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            position: absolute;
+            text-align: left;
+            z-index: -100;
+            background-image: url(assets/images/slider/slide-3.jpg);
+        }
+
+        @media (max-width: 1599px) {
+            .static-hero-s2 .images {
+                height: 855px;
+            }
+        }
+
+        @media (max-width: 1399px) {
+            .static-hero-s2 .images {
+                height: 700px;
+            }
+        }
+
+        @media (max-width: 1199px) {
+            .static-hero-s2 .images {
+                height: 585px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .static-hero-s2 .images {
+                left: 0;
+                width: 70%;
+                position: relative;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .static-hero-s2 .images {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .static-hero-s2 .images {
+                height: 420px;
+                background-position: 90%;
+
+                left: 3%;
+            }
+
+
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .images {
+                height: 300px;
+                background-position: 90%;
+                left: 3%;
+            }
+        }
+
+        .static-hero-s2 .images:after {
+            background: url(assets/images/slider/shape-2.png) no-repeat 50%;
+            background-color: #f6f4ec;
+            background-size: cover;
+            content: "";
+            height: 100%;
+            left: 0;
+            mix-blend-mode: lighten;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+        }
+
+
+
+        .static-hero-s2 .static-hero-content .shape-1 {
+            position: absolute;
+            left: 255px;
+            width: 100%;
+            top: -109px;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        @media (max-width: 1199px) {
+            .static-hero-s2 .static-hero-content .shape-1 {
+                left: 200px;
+                top: -90px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .static-hero-s2 .static-hero-content .shape-1 {
+                left: 316px;
+                top: -66px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .static-hero-s2 .static-hero-content .shape-1 {
+                left: 250px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .static-hero-s2 .static-hero-content .shape-1 {
+                left: 200px;
+                top: -20px;
+            }
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .static-hero-content .shape-1 {
+                left: 165px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .static-hero-s2 .static-hero-content .shape-1 img {
+                width: 200px;
+            }
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .static-hero-content .shape-1 img {
+                width: 200px;
+            }
+        }
+
+        .static-hero-s2 .static-hero-content .shape-2 {
+            position: absolute;
+            left: 255px;
+            width: 100%;
+            bottom: -475px;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        @media (max-width: 1199px) {
+            .static-hero-s2 .static-hero-content .shape-2 {
+                left: 200px;
+                bottom: -420px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .static-hero-s2 .static-hero-content .shape-2 {
+                left: 345px;
+                bottom: -420px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .static-hero-s2 .static-hero-content .shape-2 {
+                left: 250px;
+                bottom: -282px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .static-hero-s2 .static-hero-content .shape-2 {
+                left: 200px;
+                bottom: -290px;
+            }
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .static-hero-content .shape-2 {
+                left: 165px;
+                bottom: -260px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .static-hero-s2 .static-hero-content .shape-2 img {
+                width: 250px;
+            }
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .static-hero-content .shape-2 img {
+                width: 200px;
+            }
+        }
+
+        .static-hero-s2 .static-hero-content .static-hero-text h2 {
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 152px;
+            color: #06002E;
+            margin-bottom: -23px;
+        }
+
+        @media (max-width: 1399px) {
+            .static-hero-s2 .static-hero-content .static-hero-text h2 {
+                font-size: 75px;
+            }
+        }
+
+        @media (max-width: 1199px) {
+            .static-hero-s2 .static-hero-content .static-hero-text h2 {
+                font-size: 62px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .static-hero-s2 .static-hero-content .static-hero-text h2 {
+                font-size: 50px;
+                margin-bottom: -40px;
+            }
+        }
+
+        .static-hero-s2 .static-hero-content .static-hero-text span {
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 36px;
+            color: #000;
+        }
+
+        @media (max-width: 1199px) {
+            .static-hero-s2 .static-hero-content .static-hero-text span {
+                font-size: 20px;
+                line-height: 33px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .static-hero-s2 .static-hero-content .static-hero-text span {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .static-hero-content .static-hero-text span {
+                font-size: 15px;
+                line-height: 20px;
+            }
+        }
+    </style>
+
+    <!-- Include SweetAlert2 CSS and JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+    <audio id="background-music" src="wedding.mp3" preload="auto"></audio>
+
+    <section class="banner">
+        <div class="container">
+            <div class="row justify-content-center justify-content-sm-start align-items-center section__row">
+                <div class="col-12 col-lg-6 section__col static-hero-s2" style="margin-top: -60px;">
+                    <h3 class="mb-4 text-center" style="font-weight: 600;">The Wedding Of</h3>
+                    <div class="images">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="static-hero-content text-center" style="margin-top: -80px;">
+                        <!-- <div class="shape-1 m-0 p-0">
+                            <img src="assets/images/slider/shape-1.svg" alt="">
+                        </div> -->
+                        <div class="static-hero-text">
+                            <h2 style="margin-bottom: -50px; font-weight: 600;">Suci &amp; Dayat</h2>
+                            <p
+                                style="padding-top: -100px; color: white; background-color: #4e5143; padding: 8px; border-radius: 20px;">
+                                Sabtu, 14 September 2024</p>
+                            <p class="p-5">Kami berharap Anda menjadi bagian dari hari istimewa kami!</p>
+                        </div>
+                        <div class="count count__content">
+                            <div class="count__content-inner">
+                                <div class="count__content-single">
+                                    <h3 id="days">12</h3>
+                                    <p class="tertiary-text">Days</p>
+                                </div>
+                                <div class="count__content-single d-none d-sm-block">
+                                    <img src="assets/images/count-down/count-rose.png" alt="Image">
+                                </div>
+                                <div class="count__content-single">
+                                    <h3 id="hours">10</h3>
+                                    <p class="tertiary-text">Hours</p>
+                                </div>
+                                <div class="count__content-single d-none d-sm-block">
+                                    <img src="assets/images/count-down/count-leaf-two.png" alt="Image">
+                                </div>
+                                <div class="count__content-single">
+                                    <h3 id="minutes">46</h3>
+                                    <p class="tertiary-text">Minutes</p>
+                                </div>
+                                <div class="count__content-single d-none d-sm-block">
+                                    <img src="assets/images/count-down/count-leaf.png" alt="Image">
+                                </div>
+                                <div class="count__content-single">
+                                    <h3 id="seconds">25</h3>
+                                    <p class="tertiary-text">Second</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="shape-2">
+                            <img src="assets/images/slider/shape-2.svg" alt="">
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ==== / banner section end ==== -->
+    <section class="banner">
+        <div class="container">
+            <div class="row justify-content-center justify-content-sm-start align-items-center section__row text-center"
+                style="margin-top: -100px;">
+                <div class="col-12 col-lg-6 section__col">
+                    <img src="assets/images/bismillah.svg" alt="" height="40">
+                    <h4 class="mt-5">Assalamu'alaikum Wr. Wb.
+                    </h4>
+                    <p>Dengan memohon Rahmat dan Ridho Allah SWT. Kami mengundang Bapak/Ibu/Saudara/i serta Kerabat
+                        sekalian untuk menghadiri acara resepsi pernikahan putra putri kami:</p>
+                </div>
+
+                <div class="col-12 col-lg-6 section__col">
+                    <div class="banner-one__slides">
+                        <div class="banner-one__slider">
+                            <div class="banner-one__slider-single">
+                                <img src="assets/images/banner/one.png" alt="Image">
+                            </div>
+                            <div class="banner-one__slider-single">
+                                <img src="assets/images/banner/two.png" alt="Image">
+                            </div>
+                            <div class="banner-one__slider-single">
+                                <img src="assets/images/banner/three.png" alt="Image">
+                            </div>
+                            <div class="banner-one__slider-single">
+                                <img src="assets/images/banner/one.png" alt="Image">
+                            </div>
+                            <div class="banner-one__slider-single">
+                                <img src="assets/images/banner/two.png" alt="Image">
+                            </div>
+                            <div class="banner-one__slider-single">
+                                <img src="assets/images/banner/three.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== count down section start ==== -->
+    <section class="count wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-lg-4 col-xl-4 d-none d-lg-block">
+                    <div class="count__thumb count__alt-thumb">
+                        <img src="assets/images/about/about-one-shape.png" alt="Image" class="count-alt-img">
+                        <div class="about__thumb-inner">
+                            <img src="assets/images/about/about-one-thumb.png" alt="Image">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-lg-8 col-xl-8">
+                    <div class="count__content">
+                        <p class="tales h3" style="font-size: 28px;">Suci & Dayat</p>
+                        <div class="count__content-inner">
+                            <div class="count__content-single">
+                                <h3 id="days">12</h3>
+                                <p class="tertiary-text">Days</p>
+                            </div>
+                            <div class="count__content-single d-none d-sm-block">
+                                <img src="assets/images/count-down/count-rose.png" alt="Image">
+                            </div>
+                            <div class="count__content-single">
+                                <h3 id="hours">10</h3>
+                                <p class="tertiary-text">Hours</p>
+                            </div>
+                            <div class="count__content-single d-none d-sm-block">
+                                <img src="assets/images/count-down/count-leaf-two.png" alt="Image">
+                            </div>
+                            <div class="count__content-single">
+                                <h3 id="minutes">46</h3>
+                                <p class="tertiary-text">Minutes</p>
+                            </div>
+                            <div class="count__content-single d-none d-sm-block">
+                                <img src="assets/images/count-down/count-leaf.png" alt="Image">
+                            </div>
+                            <div class="count__content-single">
+                                <h3 id="seconds">25</h3>
+                                <p class="tertiary-text">Second</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- ==== / count down section end ==== -->
+
+    <!-- ==== photography section start ==== -->
+    <section class="photography">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="photography__inner">
+                        <div class="row align-items-center section__row">
+                            <div class="col-12 col-lg-6 col-xxl-5 section__col order-last order-lg-first">
+
+                                <div class="photography__thumb wow fadeInLeft" data-wow-duration="0.4s"
+                                    data-wow-delay="0.4s">
+                                    <img src="assets/images/1.png" alt="Image">
+                                </div>
+                                <h3 style="font-size: 23px; margin-top: 18px; font-weight: 600; line-height: 1;">Suci
+                                    Rezeki Syahputri Sitepu, S.Keb. Bd</h3>
+                                <hr>
+                                <p>PUTRI Dari Bpk. H. Rahmatsyah Sitepu dan Ibu Hj. Salbiyana Pinem, SKM. S.Keb </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <p style="font-size: 22px;" class="py-4">Dengan</p>
+            </div>
+
+
+            <div class="row justify-content-center ">
+                <div class="col-12">
+                    <div class="photography__inner">
+                        <div class="row align-items-center section__row">
+                            <div class="col-12 col-lg-6 col-xxl-5 section__col order-last order-lg-first">
+                                <!-- <img src="assets/images/camera.png" alt="Images" style="margin-top: -20px; margin-bottom: 20px;"> -->
+                                <div class="photography__thumb wow fadeInLeft" data-wow-duration="0.4s"
+                                    data-wow-delay="0.4s">
+                                    <img src="assets/images/2.png" alt="Image">
+                                </div>
+                                <h3 style="font-size: 25px; margin-top: 18px; font-weight: 600;line-height: 1;">Hidayat
+                                    Adliandi</h3>
+                                <hr>
+                                <p>PUTRA Dari Bpk. Adam Surya Negara dan Ibu Susliana </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== / photography section end ==== -->
+
+
+
+    <!-- ==== service section start ==== -->
+    <!-- <section class="section service">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+                    <div class="section__header wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                        <p class="h5">Service</p>
+                        <h3 class="h3">What We Provide</h3>
+                        <p>Pre-wedding consultation to discuss the couple's vision and preferences.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center section__row">
+                <div class="col-12 col-sm-10 col-md-6 col-xl-4 section__col">
+                    <div class="service__single wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.2s">
+                        <div class="service__single-thumb">
+                            <a href="service-single.html">
+                                <img src="assets/images/service/one.png" alt="Image">
+                            </a>
+                        </div>
+                        <div class="service__single-content">
+                            <h4><a href="service-single.html">Wedding Cake</a></h4>
+                            <p>A wedding cake is a type of cake served at a wedding </p>
+                            <div class="service__single-content-cta">
+                                <a href="service-single.html" class="cmn-btn--two"
+                                    aria-label="Learn more about this service">Service Details</a>
+                            </div>
+                        </div>
+                    </div>http://127.0.0.1:5500/portfolio.html
+                </div>
+                <div class="col-12 col-sm-10 col-md-6 col-xl-4 section__col">
+                    <div class="service__single wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                        <div class="service__single-thumb">
+                            <a href="service-single.html">
+                                <img src="assets/images/service/two.png" alt="Image">
+                            </a>
+                        </div>
+                        <div class="service__single-content">
+                            <h4><a href="service-single.html">Wedding Plan</a></h4>
+                            <p>A wedding cake is a type of cake served at a wedding </p>
+                            <div class="service__single-content-cta">
+                                <a href="service-single.html" class="cmn-btn--two"
+                                    aria-label="Learn more about this service">Service Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-6 col-xl-4 section__col">
+                    <div class="service__single wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.6s">
+                        <div class="service__single-thumb">
+                            <a href="service-single.html">
+                                <img src="assets/images/service/three.png" alt="Image">
+                            </a>
+                        </div>
+                        <div class="service__single-content">
+                            <h4><a href="service-single.html">Photography</a></h4>
+                            <p>A wedding cake is a type of cake served at a wedding </p>
+                            <div class="service__single-content-cta">
+                                <a href="service-single.html" class="cmn-btn--two"
+                                    aria-label="Learn more about this service">Service Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- ==== / service section end ==== -->
+
+    <!-- ==== counter section start ==== -->
+    <!-- <section class="section section--space-bottom counter wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12">
+                    <div class="counter__inner">
+                        <div class="counter__single">
+                            <div class="counter__single-img">
+                                <img src="assets/images/counter/ring.png" alt="Image">
+                            </div>
+                            <div class="counter__single-thumb">
+                                <h2 class="section__content-title--secondary title odometer" data-odometer-final="1200">
+                                    0</h2>
+                                <h2 class="section__content-title--secondary title">+</h2>
+                            </div>
+                            <p class="primary-text">Happy Couples</p>
+                        </div>
+                        <div class="counter__single counter__single--alt">
+                            <img src="assets/images/counter/thumb-one.png" alt="Image">
+                        </div>
+                        <div class="counter__single">
+                            <div class="counter__single-img">
+                                <img src="assets/images/counter/stage.png" alt="Image">
+                            </div>
+                            <div class="counter__single-thumb">
+                                <h2 class="section__content-title--secondary title odometer" data-odometer-final="4500">
+                                    0</h2>
+                                <h2 class="section__content-title--secondary title">+</h2>
+                            </div>
+                            <p class="primary-text">Decoration</p>
+                        </div>
+                        <div class="counter__single counter__single--alt">
+                            <img src="assets/images/counter/thumb-two.png" alt="Image">
+                        </div>
+                        <div class="counter__single">
+                            <div class="counter__single-img">
+                                <img src="assets/images/counter/flowers.png" alt="Image">
+                            </div>
+
+                            <div class="counter__single-thumb">
+                                <h2 class="section__content-title--secondary title odometer" data-odometer-final="1600">
+                                    0</h2>
+                                <h2 class="section__content-title--secondary title">+</h2>
+                            </div>
+                            <p class="primary-text">Wedding</p>
+                        </div>
+                        <div class="counter__single counter__single--alt">
+                            <img src="assets/images/counter/thumb-three.png" alt="Image">
+                        </div>
+                        <div class="counter__single">
+                            <div class="counter__single-img">
+                                <img src="assets/images/counter/gate.png" alt="Image">
+                            </div>
+                            <div class="counter__single-thumb">
+                                <h2 class="section__content-title--secondary title odometer" data-odometer-final="2500">
+                                    0</h2>
+                                <h2 class="section__content-title--secondary title">+</h2>
+                            </div>
+                            <p class="primary-text">Location</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- ==== / counter section end ==== -->
+
+    <!-- ==== presentation section start ==== -->
+    <!-- <div class="section presentation presen-alt">
+        <div class="container">
+            <div class="row section__row align-items-center justify-content-center justify-content-sm-start">
+                <div class="col-12 col-md-12 col-lg-6 col-xl-7 col-xxl-6 section__col">
+                    <div class="presentation__content presen-con-alt">
+                        <div class="presentation__slider wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                            <div class="presentation__content-single">
+                                <div class="presentation__content-thumb d-none d-sm-block">
+                                    <img src="assets/images/presentation/presentation.png" alt="Image">
+                                </div>
+                                <div class="presentation__single-content">
+                                    <img src="assets/images/header-bg.png" alt="Image">
+                                    <p class="h4">Jesica</p>
+                                    <div class="review review--fixed">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <blockquote>
+                                        “Turpis nullam dictum semper non. Sit libero venenatis nec, id viverra
+                                        adipiscing
+                                        non ultrices volutpat. Eleifend mi augue mi auctor diam diam. Mattis elementum
+                                        ullamcorper gravida id velit mauris adipiscing sed. Sollicitudin in laoreet
+                                        etiam.”
+                                    </blockquote>
+                                    <div class="slider-progress">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="presentation__content-single">
+                                <div class="presentation__content-thumb d-none d-sm-block">
+                                    <img src="assets/images/presentation/presentation.png" alt="Image">
+                                </div>
+                                <div class="presentation__single-content">
+                                    <img src="assets/images/header-bg.png" alt="Image">
+                                    <p class="h4">Charles Russell</p>
+                                    <div class="review review--fixed">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <blockquote>
+                                        “Turpis nullam dictum semper non. Sit libero venenatis nec, id viverra
+                                        adipiscing
+                                        non ultrices volutpat. Eleifend mi augue mi auctor diam diam. Mattis elementum
+                                        ullamcorper gravida id velit mauris adipiscing sed. Sollicitudin in laoreet
+                                        etiam.”
+                                    </blockquote>
+                                    <div class="slider-progress">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="presentation__content-single">
+                                <div class="presentation__content-thumb d-none d-sm-block">
+                                    <img src="assets/images/presentation/presentation.png" alt="Image">
+                                </div>
+                                <div class="presentation__single-content">
+                                    <img src="assets/images/header-bg.png" alt="Image">
+                                    <p class="h4">Frank Hamilton</p>
+                                    <div class="review review--fixed">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <blockquote>
+                                        “Turpis nullam dictum semper non. Sit libero venenatis nec, id viverra
+                                        adipiscing
+                                        non ultrices volutpat. Eleifend mi augue mi auctor diam diam. Mattis elementum
+                                        ullamcorper gravida id velit mauris adipiscing sed. Sollicitudin in laoreet
+                                        etiam.”
+                                    </blockquote>
+                                    <div class="slider-progress">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="presentation__content-single">
+                                <div class="presentation__content-thumb d-none d-sm-block">
+                                    <img src="assets/images/presentation/presentation.png" alt="Image">
+                                </div>
+                                <div class="presentation__single-content">
+                                    <img src="assets/images/header-bg.png" alt="Image">
+                                    <p class="h4">Charles Russell</p>
+                                    <div class="review review--fixed">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <blockquote>
+                                        “Turpis nullam dictum semper non. Sit libero venenatis nec, id viverra
+                                        adipiscing
+                                        non ultrices volutpat. Eleifend mi augue mi auctor diam diam. Mattis elementum
+                                        ullamcorper gravida id velit mauris adipiscing sed. Sollicitudin in laoreet
+                                        etiam.”
+                                    </blockquote>
+                                    <div class="slider-progress">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="presentation__content-single">
+                                <div class="presentation__content-thumb d-none d-sm-block">
+                                    <img src="assets/images/presentation/presentation.png" alt="Image">
+                                </div>
+                                <div class="presentation__single-content">
+                                    <img src="assets/images/header-bg.png" alt="Image">
+                                    <p class="h4">Frank Hamilton</p>
+                                    <div class="review review--fixed">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <blockquote>
+                                        “Turpis nullam dictum semper non. Sit libero venenatis nec, id viverra
+                                        adipiscing
+                                        non ultrices volutpat. Eleifend mi augue mi auctor diam diam. Mattis elementum
+                                        ullamcorper gravida id velit mauris adipiscing sed. Sollicitudin in laoreet
+                                        etiam.”
+                                    </blockquote>
+                                    <div class="slider-progress">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="presentation__content-single">
+                                <div class="presentation__content-thumb d-none d-sm-block">
+                                    <img src="assets/images/presentation/presentation.png" alt="Image">
+                                </div>
+                                <div class="presentation__single-content">
+                                    <img src="assets/images/header-bg.png" alt="Image">
+                                    <p class="h4">Akad Nikah</p>
+                                    <div class="review review--fixed">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <blockquote>
+                                        “Turpis nullam dictum semper non. Sit libero venenatis nec, id viverra
+                                        adipiscing
+                                        non ultrices volutpat. Eleifend mi augue mi auctor diam diam. Mattis elementum
+                                        ullamcorper gravida id velit mauris adipiscing sed. Sollicitudin in laoreet
+                                        etiam.”
+                                    </blockquote>
+                                    <div class="slider-progress">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 col-xl-5 col-xxl-6 section__col">
+                    <div class="presentation__thumb wow fadeInRight" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                        <div class="present__thumb-alt">
+                            <img src="assets/images/presentation/presentation-thumb.png" alt="Image">
+                        </div>
+                        <img src="assets/images/presentation/presentation-flower.png" alt="Image"
+                            class="present-bottom">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- ==== / presentation section end ==== -->
+
+    <!-- ==== portfolio section start ==== -->
+    <section class="section portfolio" style="margin-top: -30px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 bg-white">
+                    <div class="section__header wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                        <p class="h5 mt-4">AKAD NIKAH</p>
+                        <hr>
+                        <p>Hari : Jum'at, 13 September 2024</p>
+                        <p>Pukul : 09.00 WIB / Selesai</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 bg-white">
+                    <div class="section__header wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                        <p class="h5 mt-3 text-uppercase">RESEPSI</p>
+                        <hr>
+                        <p>Hari : Jum'at, 14 September 2024</p>
+                        <p>Pukul : 10.00 WIB / Selesai</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 bg-white">
+                    <div class="section__header wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                        <p class="h5 mt-4">LOKASI</p>
+                        <hr>
+                        <p>KLINIK PRATAMA SALBIYANA</p>
+                        <p>Jl. Kebun Sayur Raya No. 3 Dusun VI A Pasar 9 Medan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 bg-white py-5">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+                    <div class="wow fadeInUp text-center" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                        <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/I berkenan
+                            hadir untuk memberikan do'a restu kepada kedua mempelai.<br><br> Atas kehadirannya kami
+                            ucapkan terima kasih.</p>
+
+                        <p>Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
+                        <p style="margin-top: 20px;">
+                            <b>
+                                Keluarga Mempelai Wanita
+                            </b>
+                        </p>
+                        <p style="line-height: 0; margin-top: 20px;">
+                            <b>
+                                H. Rahmatsyah Sitepu
+                            </b>
+                        </p>
+                        <hr>
+                        <p style="line-height: 0;">
+                            <b>
+                                Hj. Salbiyana Pinem, SKM. S.Keb
+                            </b>
+                        </p>
+                        <p style="margin-top: 50px;">
+                            <b>
+                                Keluarga Mempelai Pria
+                            </b>
+                        </p>
+                        <p style="line-height: 0; margin-top: 20px;">
+                            <b>
+                                Adam Surya Negara
+                            </b>
+                        </p>
+                        <hr>
+                        <p style="line-height: 0;">
+                            <b>
+                                Susliana
+                            </b>
+                        </p>
+
+                        <p class="mt-5">
+                            Turut Mengundang Seluruh Keluarga Mempelai
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!-- <div class="row justify-content-center section__row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 section__col">
+                    <div class="portfolio__single wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.2s">
+                        <div class="portfolio__single-thumb">
+                            <a href="portfolio.html">
+                                <img src="assets/images/portfolio/one.png" alt="Image">
+                            </a>
+                        </div>
+                        <div class="portfolio__single-content">
+                            <p class="h6">
+                                <a href="portfolio.html">Aleni & Mark</a>
+                            </p>
+                            <a href="portfolio.html" class="cmn-btn--two" aria-label="check out our portfolio">Our
+                                Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 section__col">
+                    <div class="portfolio__single wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                        <div class="portfolio__single-thumb">
+                            <a href="portfolio.html">
+                                <img src="assets/images/portfolio/one.png" alt="Image">
+                            </a>
+                        </div>
+                        <div class="portfolio__single-content">
+                            <p class="h6">
+                                <a href="portfolio.html">Aleni & Mark</a>
+                            </p>
+                            <a href="portfolio.html" class="cmn-btn--two" aria-label="check out our portfolio">Our
+                                Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 section__col">
+                    <div class="portfolio__single wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.6s">
+                        <div class="portfolio__single-thumb">
+                            <a href="portfolio.html">
+                                <img src="assets/images/portfolio/one.png" alt="Image">
+                            </a>
+                        </div>
+                        <div class="portfolio__single-content">
+                            <p class="h6">
+                                <a href="portfolio.html">Aleni & Mark</a>
+                            </p>
+                            <a href="portfolio.html" class="cmn-btn--two" aria-label="check out our portfolio">Our
+                                Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 section__col">
+                    <div class="portfolio__single wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.8s">
+                        <div class="portfolio__single-thumb">
+                            <a href="portfolio.html">
+                                <img src="assets/images/portfolio/one.png" alt="Image">
+                            </a>
+                        </div>
+                        <div class="portfolio__single-content">
+                            <p class="h6">
+                                <a href="portfolio.html">Aleni & Mark</a>
+                            </p>
+                            <a href="portfolio.html" class="cmn-btn--two" aria-label="check out our portfolio">Our
+                                Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <div class="container text-center">
+        <p style="font-size: 18px; margin: 0; margin-top: -40px; font-weight: 700; font-family: poppins;" class="pb-4">
+            Dan Turut Memestakan <br> Putra-Putri Kami : </p>
+    </div>
+    <!-- ==== / portfolio section end ==== -->
+    <section class="photography">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="photography__inner">
+                        <div class="row align-items-center section__row">
+                            <div class="col-12 col-lg-6 col-xxl-5 section__col order-last order-lg-first">
+
+                                <div class="photography__thumb wow fadeInLeft" data-wow-duration="0.4s"
+                                    data-wow-delay="0.4s">
+                                    <img src="assets/6.png" alt="Image">
+                                </div>
+                                <h3 style="font-size: 23px; margin-top: 18px; font-weight: 600; line-height: 1;">
+                                    Ramadhani Syahfitri Sitepu Str. Keb. Bd</h3>
+                                <hr>
+                                <p>PUTRI Dari Bpk. H. Rahmatsyah Sitepu dan Ibu Hj. Salbiyana Pinem, SKM. S.Keb </p>
+                                <h3 style="font-size: 23px; margin-top: 18px; font-weight: 600; line-height: 1;">Rizki
+                                    Ramadhani Amd. Kep</h3>
+                                <hr>
+                                <p>PUTRA Dari Bpk. Toherman & Ibu Sri Kasiani, Amd. Keb </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <p style="font-size: 22px;" class="py-2"></p>
+            </div>
+
+
+            <div class="row justify-content-center ">
+                <div class="col-12">
+                    <div class="photography__inner">
+                        <div class="row align-items-center section__row">
+                            <div class="col-12 col-lg-6 col-xxl-5 section__col order-last order-lg-first">
+                                <!-- <img src="assets/images/camera.png" alt="Images" style="margin-top: -20px; margin-bottom: 20px;"> -->
+                                <div class="photography__thumb wow fadeInLeft" data-wow-duration="0.4s"
+                                    data-wow-delay="0.4s">
+                                    <img src="assets/10.png" alt="Image">
+                                </div>
+                                <h3 style="font-size: 25px; margin-top: 18px; font-weight: 600;line-height: 1.5;">Lettu
+                                    CKM Dr. Mhd. Reza Hariansyah Sitepu</h3>
+                                <hr>
+                                <p>PUTRA Dari Bpk. H. Rahmatsyah Sitepu dan Ibu Hj. Salbiyana Pinem, SKM. S.Keb </p>
+                                <h3 style="font-size: 25px; margin-top: 18px; font-weight: 600;line-height: 1.5;">Dr.
+                                    Windha Tri Astuti</h3>
+                                <hr>
+                                <p>PUTRA Dari Bpk. H. Rahmatsyah Sitepu dan Ibu Hj. Salbiyana Pinem, SKM. S.Keb </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==== gallery section start ==== -->
+    <section class="section gallery wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+                    <div class="section__header">
+                        <p class="h5">Galleries</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row section__row justify-content-center gallery-popup">
+                <div class="col-12 col-sm-6 col-lg-3 section__col">
+                    <div class="gallery__single odd">
+                        <div class="gallery__single-img">
+                            <a href="assets/1.png" data-effect="mfp-zoom-in">
+                                <img src="assets/1.png" alt="Image">
+                               </a>
+                        </div>
+                        <div class="gallery__single-img">
+                            <a href="assets/2.png" data-effect="mfp-zoom-in">
+                                <img src="assets/2.png" alt="Image">
+                               </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 section__col">
+                    <div class="gallery__single">
+                        <div class="gallery__single-img">
+                            <a href="assets/3.png" data-effect="mfp-zoom-in">
+                                <img src="assets/3.png" alt="Image">
+                               </a>
+                        </div>
+                        <div class="gallery__single-img">
+                            <a href="assets/4.png" data-effect="mfp-zoom-in">
+                                <img src="assets/4.png" alt="Image">
+                               </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 section__col">
+                    <div class="gallery__single">
+                        <div class="gallery__single-img">
+                            <a href="assets/5.png" data-effect="mfp-zoom-in">
+                                <img src="assets/5.png" alt="Image">
+                               </a>
+                        </div>
+                        <div class="gallery__single-img">
+                            <a href="assets/6.png" data-effect="mfp-zoom-in">
+                                <img src="assets/6.png" alt="Image">
+                               </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 section__col">
+                    <div class="gallery__single">
+                        <div class="gallery__single-img">
+                            <a href="assets/7.png" data-effect="mfp-zoom-in">
+                                <img src="assets/7.png" alt="Image">
+                               </a>
+                        </div>
+                        <div class="gallery__single-img">
+                            <a href="assets/8.png" data-effect="mfp-zoom-in">
+                                <img src="assets/8.png" alt="Image">
+                               </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 section__col">
+                    <div class="gallery__single">
+                        <div class="gallery__single-img">
+                            <a href="assets/11.jpg" data-effect="mfp-zoom-in">
+                                <img src="assets/11.jpg" alt="Image">
+                               </a>
+                        </div>
+                        <div class="gallery__single-img">
+                            <a href="assets/12.jpeg" data-effect="mfp-zoom-in">
+                                <img src="assets/12.jpeg" alt="Image">
+                               </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 section__col">
+                    <div class="gallery__single">
+
+                        <div class="gallery__single-img">
+                            <a href="assets/10.png" data-effect="mfp-zoom-in">
+                                <img src="assets/10.png" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ==== / gallery section end ==== -->
+
+    <!-- ==== footer section start ==== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <p class="text-white text-center mt-5">
+                    Dan di antara tanda-tanda kekuasaan-Nya lah Dia menciptakan untukmu istri-istri dari jenismu
+                    sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa
+                    kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum
+                    yang berfikir.
+                    <br>
+                    <b>- Q.S Ar Rum : 21 -</b>
+                </p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="footer__copy">
+
+                        <div class="footer__copy-content">
+                            <p>Copyright &copy; <span id="copyYear"></span> Wedding. All Rights Reserved </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==== / footer section end ==== -->
+
+    <!-- scroll to top -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==== js dependencies start ==== -->
+
+    <!-- jquery -->
+    <script src="assets/vendor/jquery/jquery-3.6.4.min.js"></script>
+    <!-- bootstrap five js -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- nice select js -->
+    <script src="assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    <!-- magnific popup js -->
+    <script src="assets/vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+    <!-- slick js -->
+    <script src="assets/vendor/slick/js/slick.min.js"></script>
+    <!-- shuffle js -->
+    <script src="assets/vendor/shuffle/shuffle.min.js"></script>
+    <!-- odometer js -->
+    <script src="assets/vendor/odometer/js/odometer.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/vendor/viewport/viewport.jquery.js"></script>
+    <!-- wow js -->
+    <script src="assets/vendor/wow/wow.min.js"></script>
+
+    <!-- ==== / js dependencies end ==== -->
+
+    <!-- plugins js -->
+    <script src="assets/js/plugins.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // SweetAlert prompt
+            Swal.fire({
+                title: 'Selamat Datang di Undangan Pernikahan Kami',
+                icon: 'info',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Buka Undangan',
+                showCancelButton: false,
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Play the music if the user clicks 'Play'
+                    document.getElementById('background-music').play();
+                    // Swal.fire(
+                    //     'Music Playing!',
+                    //     'Enjoy the background music.',
+                    //     'success'
+                    // );
+                } else {
+                    Swal.fire(
+                        'No Music',
+                        'You chose not to play the music.',
+                        'info'
+                    );
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

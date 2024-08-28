@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- required meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- #favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- #title -->
+    <title>Glamoure | Wedding Html5 Template</title>
+    <!-- #keywords -->
+    <meta name="keywords" content="Glamoure, Wedding">
+    <!-- #description -->
+    <meta name="description" content="Wedding HTML5 Template">
+
+    <!-- ==== css dependencies start ==== -->
+
+    <!-- bootstrap five css -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- font awesome six css -->
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css">
+    <!-- nice select css -->
+    <link rel="stylesheet" href="assets/vendor/nice-select/css/nice-select.css">
+    <!-- magnific popup css -->
+    <link rel="stylesheet" href="assets/vendor/magnific-popup/css/magnific-popup.css">
+    <!-- slick css -->
+    <link rel="stylesheet" href="assets/vendor/slick/css/slick.css">
+    <!-- odometer css -->
+    <link rel="stylesheet" href="assets/vendor/odometer/css/odometer.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/vendor/animate/animate.css">
+
+    <!-- ==== / css dependencies end ==== -->
+
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <style>
+        @media (min-width: 768px) {
+            .container {
+                display: none;
+            }
+        }
+
+        .static-hero-s2 .images {
+            left: 5%;
+            margin: 0 auto;
+            /* margin-top: 50px; */
+            top: 0;
+            width: 48%;
+            height: 880px;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-position: 90%;
+            /* background-position: 50%; */
+            background-size: cover;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            position: absolute;
+            text-align: left;
+            z-index: -100;
+            background-image: url(assets/images/slider/slide-3.jpg);
+        }
+
+        @media (max-width: 1599px) {
+            .static-hero-s2 .images {
+                height: 855px;
+            }
+        }
+
+        @media (max-width: 1399px) {
+            .static-hero-s2 .images {
+                height: 700px;
+            }
+        }
+
+        @media (max-width: 1199px) {
+            .static-hero-s2 .images {
+                height: 585px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .static-hero-s2 .images {
+                left: 0;
+                width: 70%;
+                position: relative;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .static-hero-s2 .images {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .static-hero-s2 .images {
+                height: 420px;
+                background-position: 90%;
+
+                left: 3%;
+            }
+
+
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .images {
+                height: 300px;
+                background-position: 90%;
+                left: 3%;
+            }
+        }
+
+        .static-hero-s2 .images:after {
+            background: url(assets/images/slider/shape-2.png) no-repeat 50%;
+            background-color: #f6f4ec;
+            background-size: cover;
+            content: "";
+            height: 100%;
+            left: 0;
+            mix-blend-mode: lighten;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+        }
+
+
+
+        .static-hero-s2 .static-hero-content .shape-1 {
+            position: absolute;
+            left: 255px;
+            width: 100%;
+            top: -109px;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        @media (max-width: 1199px) {
+            .static-hero-s2 .static-hero-content .shape-1 {
+                left: 200px;
+                top: -90px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .static-hero-s2 .static-hero-content .shape-1 {
+                left: 316px;
+                top: -66px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .static-hero-s2 .static-hero-content .shape-1 {
+                left: 250px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .static-hero-s2 .static-hero-content .shape-1 {
+                left: 200px;
+                top: -20px;
+            }
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .static-hero-content .shape-1 {
+                left: 165px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .static-hero-s2 .static-hero-content .shape-1 img {
+                width: 200px;
+            }
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .static-hero-content .shape-1 img {
+                width: 200px;
+            }
+        }
+
+        .static-hero-s2 .static-hero-content .shape-2 {
+            position: absolute;
+            left: 255px;
+            width: 100%;
+            bottom: -475px;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        @media (max-width: 1199px) {
+            .static-hero-s2 .static-hero-content .shape-2 {
+                left: 200px;
+                bottom: -420px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .static-hero-s2 .static-hero-content .shape-2 {
+                left: 345px;
+                bottom: -420px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .static-hero-s2 .static-hero-content .shape-2 {
+                left: 250px;
+                bottom: -282px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .static-hero-s2 .static-hero-content .shape-2 {
+                left: 200px;
+                bottom: -290px;
+            }
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .static-hero-content .shape-2 {
+                left: 165px;
+                bottom: -260px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .static-hero-s2 .static-hero-content .shape-2 img {
+                width: 250px;
+            }
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .static-hero-content .shape-2 img {
+                width: 200px;
+            }
+        }
+
+        .static-hero-s2 .static-hero-content .static-hero-text h2 {
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 152px;
+            color: #06002E;
+            margin-bottom: -23px;
+        }
+
+        @media (max-width: 1399px) {
+            .static-hero-s2 .static-hero-content .static-hero-text h2 {
+                font-size: 75px;
+            }
+        }
+
+        @media (max-width: 1199px) {
+            .static-hero-s2 .static-hero-content .static-hero-text h2 {
+                font-size: 62px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .static-hero-s2 .static-hero-content .static-hero-text h2 {
+                font-size: 50px;
+                margin-bottom: -40px;
+            }
+        }
+
+        .static-hero-s2 .static-hero-content .static-hero-text span {
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 36px;
+            color: #000;
+        }
+
+        @media (max-width: 1199px) {
+            .static-hero-s2 .static-hero-content .static-hero-text span {
+                font-size: 20px;
+                line-height: 33px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .static-hero-s2 .static-hero-content .static-hero-text span {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+
+        @media (max-width: 399px) {
+            .static-hero-s2 .static-hero-content .static-hero-text span {
+                font-size: 15px;
+                line-height: 20px;
+            }
+        }
+    </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</head>
+
+<body class="d-flex justify-content-center align-items-center vh-100">
+    <audio id="background-music" src="wedding.mp3" preload="auto"></audio>
+    <section class="photography d-flex justify-content-center align-items-center" style="margin-top: -50px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="photography__inner">
+                        <div class="row align-items-center justify-content-center text-center">
+                            <div class="col-12 col-lg-6 order-last order-lg-first">
+                                <h3
+                                    style="font-size: 30px; margin-bottom: 10px; margin-top: -20px; font-weight: 600;line-height: 1.5;">
+                                    Undangan Pernikahan</h3>
+                                <div class="photography__thumb wow fadeInLeft" data-wow-duration="0.4s"
+                                    data-wow-delay="0.4s">
+                                    <img src="assets/2.png" alt="Image">
+                                </div>
+                                <h3 style="font-size: 40px; margin-top: 18px; font-weight: 600;line-height: 1;">
+                                    Suci & Dayat</h3>
+                                <hr>
+                                <p>Kepada Bapak/Ibu/Saudara/i
+                                    <br>
+                                    Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.
+                                </p>
+                                <div class="photography__bt mt-4">
+                                    <a href="wedding.html" class="btn btn-primary rounded-pill px-4"
+                                        style="background-color: #4e5143; border: 1px solid #4e5143;">&nbsp;Buka Undangan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== js dependencies start ==== -->
+
+    <!-- jquery -->
+    <script src="assets/vendor/jquery/jquery-3.6.4.min.js"></script>
+    <!-- bootstrap five js -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- nice select js -->
+    <script src="assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    <!-- magnific popup js -->
+    <script src="assets/vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+    <!-- slick js -->
+    <script src="assets/vendor/slick/js/slick.min.js"></script>
+    <!-- shuffle js -->
+    <script src="assets/vendor/shuffle/shuffle.min.js"></script>
+    <!-- odometer js -->
+    <script src="assets/vendor/odometer/js/odometer.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/vendor/viewport/viewport.jquery.js"></script>
+    <!-- wow js -->
+    <script src="assets/vendor/wow/wow.min.js"></script>
+
+    <!-- ==== / js dependencies end ==== -->
+
+    <!-- plugins js -->
+    <script src="assets/js/plugins.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // SweetAlert prompt
+            Swal.fire({
+                title: 'Selamat Datang di Undangan Pernikahan Kami',
+                icon: 'info',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Buka Undangan',
+                showCancelButton: false,
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Play the music if the user clicks 'Play'
+                    document.getElementById('background-music').play();
+                    // Swal.fire(
+                    //     'Music Playing!',
+                    //     'Enjoy the background music.',
+                    //     'success'
+                    // );
+                } else {
+                    Swal.fire(
+                        'No Music',
+                        'You chose not to play the music.',
+                        'info'
+                    );
+                }
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
